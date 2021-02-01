@@ -591,6 +591,10 @@ body {
 .hero-2 {
 	padding: 150px 0 50px 0;
 	background: #f3f3f3;
+	background-image: url();
+	background: url(../images/banner.jpg) no-repeat center center;
+	background-size: 100% 100%;
+	min-height: 800px;
 }
 
 .hero-2 .intro {
@@ -598,20 +602,10 @@ body {
 }
 
 .hero-2 .intro h1 {
-	font-size: 22px;
+	font-size: 32px;
 	font-weight: 600;
 	line-height: 1.1;
 	color: #333333;
-	
-}
-
-.hero-2 .intro h1  span{
-	font-size: 28px;
-}
-
-.login{
-	width: 70%;
-	margin: 0 auto;
 }
 
 .hero-2 .intro p {

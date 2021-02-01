@@ -598,20 +598,10 @@ body {
 }
 
 .hero-2 .intro h1 {
-	font-size: 22px;
+	font-size: 32px;
 	font-weight: 600;
 	line-height: 1.1;
 	color: #333333;
-	
-}
-
-.hero-2 .intro h1  span{
-	font-size: 28px;
-}
-
-.login{
-	width: 70%;
-	margin: 0 auto;
 }
 
 .hero-2 .intro p {
@@ -1796,15 +1786,10 @@ body {
 		text-align: left;
 	}
 
-	.main-2 .cta-inner p {
+	.main-2 .cta-inner p{
+		margin: 20px 0 0 0;
+		float: right;
 		text-align: left;
-		color: #808080;
-	}
-
-	.main-2 .cta-inner h3 {
-		font-size: 14px;
-		color: #808080;
-		font-weight: normal;
 	}
 
 	.dwnld-inner .app-info h1 {
@@ -1972,8 +1957,9 @@ body {
 	font-size: 15px;
 	display: flex;
 	align-items: center;
+	
 }
-.see-video i {
+.see-video i{
 	font-size: 20px;
 	margin-right: 10px;
 }

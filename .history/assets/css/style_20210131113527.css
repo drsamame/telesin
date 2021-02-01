@@ -378,6 +378,7 @@ body {
 	background: rgb(28 168 230) !important;
 	color: #ffffff;
 	border-color: rgb(28 168 230) !important;
+	box-shadow: 0 5px 10px rgba(65, 205, 82, 0.5);
 }
 
 /*---------- Media Queries ---------*/
@@ -540,7 +541,7 @@ body {
 	/*background: linear-gradient(to right bottom,#3b1f5d,#633c84,#a25fa7,#b672ba);
 	background: #7B4EFF;
 	*/
-	background: url(../images/1.jpg) no-repeat center center;
+	background: url(../images/product.PNG) no-repeat center center;
 	background-size: cover;
 }
 
@@ -590,7 +591,7 @@ body {
 
 .hero-2 {
 	padding: 150px 0 50px 0;
-	background: #f3f3f3;
+	background: #ffffff;
 }
 
 .hero-2 .intro {
@@ -598,27 +599,10 @@ body {
 }
 
 .hero-2 .intro h1 {
-<<<<<<< HEAD
-	font-size: 22px;
-	font-weight: 600;
-	line-height: 1.1;
-	color: #333333;
-	
-}
-
-.hero-2 .intro h1  span{
-	font-size: 28px;
-}
-
-.login{
-	width: 70%;
-	margin: 0 auto;
-=======
 	font-size: 32px;
 	font-weight: 600;
 	line-height: 1.1;
 	color: #333333;
->>>>>>> e0d1a31eb6f93af57c79261aca59317a0e74c700
 }
 
 .hero-2 .intro p {
@@ -1292,6 +1276,7 @@ body {
 /* ----- Hero Section Styling Starts ----- */
 
 .cta {
+	height: 100%;
 	background: #f2f2f2;
 	background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
 		url(../images/bg.jpg) no-repeat center center;
@@ -1361,11 +1346,11 @@ body {
 
 .main-2 .cta {
 	background: url(../images/pitch_bg.jpg) no-repeat center center;
-	padding: 100px 0 100px 0;
+	padding: 0 0 100px 0;
 }
 
 .main-2 .cta-inner {
-	margin: 50px 0 0 0;
+	margin: 150px 0 0 0;
 	float: right;
 	text-align: center;
 }
@@ -1798,26 +1783,9 @@ body {
 	}
 
 	.main-2 .cta-inner {
-<<<<<<< HEAD
-		margin: 20px 0 0 0;
-		float: right;
-		text-align: left;
-	}
-
-	.main-2 .cta-inner p {
-		text-align: left;
-		color: #808080;
-	}
-
-	.main-2 .cta-inner h3 {
-		font-size: 14px;
-		color: #808080;
-		font-weight: normal;
-=======
-		margin: 50px 0 0 0;
+		margin: 150px 0 0 0;
 		float: right;
 		text-align: justify;
->>>>>>> e0d1a31eb6f93af57c79261aca59317a0e74c700
 	}
 
 	.dwnld-inner .app-info h1 {
@@ -1900,7 +1868,7 @@ body {
 	}
 
 	.main-2 .cta-inner {
-		margin: 50px 0 0 0;
+		margin: 150px 0 0 0;
 		float: none;
 		text-align: justify;
 	}
@@ -1964,54 +1932,4 @@ body {
 		border-radius: 0 5px 5px 0;
 		margin-top: 15px;
 	}
-}
-
-.ion-iphone {
-	margin-right: 10px;
-	font-size: 25px;
-}
-
-.page-scroll {
-	display: flex !important;
-	justify-content: center;
-	font-size: 20px;
-	align-items: center;
-}
-
-.see-video {
-	font-family: "Nunito";
-	font-weight: 600;
-	color: #1ba8e5;
-	font-size: 15px;
-	display: flex;
-	align-items: center;
-<<<<<<< HEAD
-}
-.see-video i {
-=======
-	
-}
-.see-video i{
->>>>>>> e0d1a31eb6f93af57c79261aca59317a0e74c700
-	font-size: 20px;
-	margin-right: 10px;
-}
-.see-video:hover {
-	color: #1ba8e5;
-}
-
-.buy-now:hover {
-	background: rgb(28 168 230);
-	color: #fff;
-	text-decoration: none;
-}
-
-.buy-now {
-	background: rgb(28 168 230);
-	color: #ffffff;
-	border-radius: 0.7rem;
-	padding: 0.5rem 1.5rem;
-	margin-top: 0.4rem;
-	font-family: "Nunito";
-	font-weight: 600;
 }

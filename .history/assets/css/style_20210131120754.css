@@ -598,27 +598,10 @@ body {
 }
 
 .hero-2 .intro h1 {
-<<<<<<< HEAD
-	font-size: 22px;
-	font-weight: 600;
-	line-height: 1.1;
-	color: #333333;
-	
-}
-
-.hero-2 .intro h1  span{
-	font-size: 28px;
-}
-
-.login{
-	width: 70%;
-	margin: 0 auto;
-=======
 	font-size: 32px;
 	font-weight: 600;
 	line-height: 1.1;
 	color: #333333;
->>>>>>> e0d1a31eb6f93af57c79261aca59317a0e74c700
 }
 
 .hero-2 .intro p {
@@ -1798,26 +1781,9 @@ body {
 	}
 
 	.main-2 .cta-inner {
-<<<<<<< HEAD
-		margin: 20px 0 0 0;
-		float: right;
-		text-align: left;
-	}
-
-	.main-2 .cta-inner p {
-		text-align: left;
-		color: #808080;
-	}
-
-	.main-2 .cta-inner h3 {
-		font-size: 14px;
-		color: #808080;
-		font-weight: normal;
-=======
 		margin: 50px 0 0 0;
 		float: right;
 		text-align: justify;
->>>>>>> e0d1a31eb6f93af57c79261aca59317a0e74c700
 	}
 
 	.dwnld-inner .app-info h1 {
@@ -1981,20 +1947,9 @@ body {
 .see-video {
 	font-family: "Nunito";
 	font-weight: 600;
+	text-decoration: underline;
 	color: #1ba8e5;
 	font-size: 15px;
-	display: flex;
-	align-items: center;
-<<<<<<< HEAD
-}
-.see-video i {
-=======
-	
-}
-.see-video i{
->>>>>>> e0d1a31eb6f93af57c79261aca59317a0e74c700
-	font-size: 20px;
-	margin-right: 10px;
 }
 .see-video:hover {
 	color: #1ba8e5;

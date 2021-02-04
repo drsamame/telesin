@@ -1353,7 +1353,7 @@ body {
 }
 
 .main-2 .cta {
-	background: #fff;
+	background: url(../images/pitch_bg.jpg) no-repeat center center;
 	padding: 100px 0 100px 0;
 }
 

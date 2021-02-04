@@ -580,6 +580,11 @@ body {
 	margin-top: 25px;
 }
 
+
+.hero .intro p a{
+	font-weight: 600;
+}
+
 .hero .form-footer p {
 	font-family: "Nunito";
 	color: #5d6a7b;

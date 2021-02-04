@@ -72,6 +72,14 @@ jQuery(function ($) {
     return false;
   });
 
+  /* ------ Countdown ----- */
+
+  $('#countdown').countdown({
+    date: '12/07/2022 12:00:00',
+    offset: +2,
+    day: 'Day',
+    days: 'Days'
+  });
 
   /* ------ jQuery for Easing min -- */
 
